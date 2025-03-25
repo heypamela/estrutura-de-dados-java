@@ -11,14 +11,14 @@ public class Exercicio1_Fila {
         String nome, proximoCliente, filaVazia = "A Fila está vazia!";
         
         do {
-            System.out.println("###############################################");
-            System.out.println("\n  Digite 1 para adicionar de um novo cliente ");
-            System.out.println("  Digite 2 para ver a lista de clientes        ");
-            System.out.println("  Digite 3 para chamar um cliente              ");
-            System.out.println("  Digite 0 para finalizar                    \n");
-            System.out.println("###############################################");
+            System.out.println("----------------------------------------");
+            System.out.println("\n 1 - Adicionar um cliente na fila");
+            System.out.println(" 2 - Lista todos os clientes");
+            System.out.println(" 3 - Chamar um cliente da fila");
+            System.out.println(" 0 - Sair \n");
+            System.out.println("----------------------------------------");
 
-            System.out.println("\n    Digite a opção desejada:              \n");
+            System.out.println("\n   Entre a com opção desejada: ");
 
             opcao = lerScanner.nextInt();
             lerScanner.nextLine();
@@ -60,12 +60,12 @@ public class Exercicio1_Fila {
                             System.out.println(cliente);
                         }
                     }
-                break;
+                    break;
         
                 case 0:
                     System.out.println("Programa Finalizado!");
                     System.out.println("Até mais 👋");
-                break;
+                    break;
 
                 default:
                     System.out.println("Opção Inválida!");
